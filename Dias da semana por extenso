@@ -1,0 +1,47 @@
+algoritmo "Dias da semana por extenso"
+
+
+var
+diaSemana: caracter
+resultado: caracter
+
+
+inicio
+escreval ("Escreva um dia da semana por extenso")
+leia (diaSemana)
+
+escolha diaSemana
+caso "Segunda-Feira"
+
+escreval ("O dia consecutivo é: Terça-Feira")
+
+caso "Terça-Feira"
+
+escreval ("O dia consecutivo é: Quarta-Feira")
+
+caso "Quarta-Feira"
+
+escreval ("O dia consecutivo é: Quinta-Feira")
+
+caso "Quinta-Feira"
+
+escreval ("O dia consecutivo é: Sexta-Feira")
+
+caso "Sexta-Feira"
+
+escreval ("O dia consecutivo é: Sábado")
+
+caso "Sábado"
+
+escreval ("O dia consecutivo é: Domingo")
+
+caso "Domingo"
+
+escreval ("O dia consecutivo é: Segunda-Feira")
+
+
+
+
+fimescolha
+
+fimalgoritmo
