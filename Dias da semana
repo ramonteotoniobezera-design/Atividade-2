@@ -1,0 +1,49 @@
+algoritmo "Dias da semana"
+
+
+var
+  nome: caractere
+  diaSemana: inteiro
+
+
+inicio
+  escreval ("Digite um número de 1 a 7 para imprimir um dia da semana!")
+  leia (diaSemana)
+
+  escolha diaSemana
+    caso 1
+
+      escreval ("Segunda-Feira")
+
+    caso 2
+
+      escreval ("Terça-Feira")
+
+    caso 3
+
+      escreval ("Quarta-Feira")
+
+    caso 4
+
+      escreval ("Quinta-Feira")
+
+    caso 5
+
+      escreval ("Sexta-Feira")
+
+    caso 6
+
+      escreval ("Sábado")
+
+    caso 7
+
+      escreval ("Domingo")
+
+    outrocaso
+
+      escreval ("Opção Inválida")
+
+  fimescolha
+
+
+fimalgoritmo
